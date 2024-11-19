@@ -40,7 +40,7 @@ const AdminCustomers=()=>
     useEffect(() => {
         async function fetchData() {
           try {
-            const res = await axios.get("http://localhost:3001/adminalldata");
+            const res = await axios.get("https://help-desk-web.onrender.com/adminalldata");
             setTickets(res.data);
             
           } catch (error) {
@@ -71,7 +71,7 @@ const AdminCustomers=()=>
 
       const handleSendData=async()=>
       {
-        const res = await axios.post("http://localhost:3001/customerupdate/",data);
+        const res = await axios.post("https://help-desk-web.onrender.com/customerupdate/",data);
 
       }
 

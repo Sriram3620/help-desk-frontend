@@ -37,7 +37,7 @@ function Help() {
       event.stopPropagation();
     }
     else{
-        const res=await axios.post("http://localhost:3001/customer-tickets",data);
+        const res=await axios.post("https://help-desk-web.onrender.com/customer-tickets",data);
         console.log(res);
     }
     setValidated(true);

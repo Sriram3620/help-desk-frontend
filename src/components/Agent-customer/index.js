@@ -40,7 +40,7 @@ const AgentCustomer=()=>
     useEffect(() => {
         async function fetchData() {
           try {
-            const res = await axios.post("http://localhost:3001/getagenttickets",{agent:agent});
+            const res = await axios.post("https://help-desk-web.onrender.com/getagenttickets",{agent:agent});
             setTickets(res.data);
             
           } catch (error) {
@@ -71,7 +71,7 @@ const AgentCustomer=()=>
 
       const handleSendData=async()=>
       {
-        const res = await axios.post("http://localhost:3001/customerupdate/",data);
+        const res = await axios.post("https://help-desk-web.onrender.com/customerupdate/",data);
 
       }
 

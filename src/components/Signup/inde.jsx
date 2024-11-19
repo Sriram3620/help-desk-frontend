@@ -45,7 +45,7 @@ export default function SignUpPage() {
       email: data.get('email'),
       password: data.get('password'),
     }
-    const res =await axios.post("http://localhost:3001/register",userDetails)
+    const res =await axios.post("https://help-desk-web.onrender.com/register",userDetails)
     if(res.data==="userAlreadyExist")
     {
       setSignUperr(true)
