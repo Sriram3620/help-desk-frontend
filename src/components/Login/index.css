@@ -1,0 +1,41 @@
+@media (min-width: 1025px) {
+    .h-custom-2 {
+      height: 100%;
+      }
+    }
+.login-img
+{
+    height: 40vh!important;
+}
+.slct-role
+{
+
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.LoginPageCon
+{
+   
+    background-size: cover;
+    height: 100vh;
+
+}
+.Login-box{
+    
+    opacity: 0.9;
+    
+}
+.sign-name{
+    font-weight: bold;
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.signUp-link{
+    cursor: pointer;
+}
+.Error-msg-login
+{
+    font-weight: bold;
+    font-size: 16px;
+}

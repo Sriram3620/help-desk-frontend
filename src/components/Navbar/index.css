@@ -1,0 +1,49 @@
+/* Custom styles for the Navbar.Toggle button */
+.nav-clr {
+    background-color: transparent !important; /* Green background */
+    border: none; /* Remove the border */
+    padding: 8px 10px; /* Adjust button size */
+    color: black !important; /* Ensure the toggle icon is white */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-clr:hover {
+    background-color: #45a049 !important; /* Darker green on hover */
+    color: white !important; /* Keep icon white */
+  }
+  
+  .nav-clr:focus {
+    outline: none !important; /* Remove the default outline */
+    box-shadow: 0 0 0 3px rgba(72, 239, 123, 0.5); /* Add custom focus effect */
+  }
+  
+  /* Ensure Navbar background doesn't conflict */
+  .custom-navbar {
+    background-color: #2c3e50; /* Dark background for Navbar */
+    color: white;
+  }
+  
+  .logo
+  {
+    height: 30px;
+    width: 40px;
+    
+  }
+  .logo-name
+  {
+    color: #060676;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .logout-btn
+  {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background-color: #060676;
+  }

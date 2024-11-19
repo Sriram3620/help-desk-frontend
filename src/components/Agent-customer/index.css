@@ -1,0 +1,59 @@
+.card-name
+{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-title
+{
+    font-size: 22px!important;
+    color: black!important;
+    font-weight: bold!important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.card-title-val
+{
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(221, 16, 16);
+}
+.card-des
+{
+    font-size: 20px!important;
+    color: black!important;
+    font-weight: bold!important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-des-val
+{
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+}
+.card-status
+{
+    font-size: 22px!important;
+    color: black!important;
+    font-weight: bold!important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-status-val
+{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(20, 213, 10);
+}
+.card-bg
+{
+    border-style: solid!important;
+}
+.update-btn
+{
+    background-color: rgb(28, 164, 28)!important;
+    color: white!important;
+    font-size: 15px!important;
+    text-align: center;
+    margin: 10px!important;
+}

@@ -1,0 +1,41 @@
+.sidebar-bg
+{
+    background-color: rgb(4, 19, 65);
+    height: 90vh;
+    width: 30vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; 
+    border-top: 0cap;
+    color: white;
+    border-left: 0cap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.menu-item-bg
+{
+    background-color: navy!important;
+}
+.menu-items
+{
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.menu-items:hover
+{
+    background-color: white;
+    opacity: 0.4;
+    color: black;
+}
+.logout-bg
+{
+
+
+}
